@@ -2,6 +2,7 @@
 Meeting room presence algorithm that messages Salesforce when room is occupied.
 
 #Usage
+(Please see "Room Occupancy Step-by-Step.pdf" for a more detailed step-by-step guide)
 ##Salesforce Config
 - Create master / detail custom objects named Room__c and Room_Occupancy__c respectively. The master will be the room object and the detail will represent when the room is occupied.
 - Create custom field Occupied__c in Room__c object
